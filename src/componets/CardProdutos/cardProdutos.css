@@ -1,0 +1,41 @@
+h1 {
+    text-align: center;
+    padding: 40px;
+}
+
+.card-produtos {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    border-radius: 8px;
+    padding: 16px;
+    width: 420px;
+    text-align: center;
+    background-color: rgb(107, 100, 100);
+}
+
+.card-produtos img {
+    height: auto;
+    width: 100px;
+    place-self: center;
+}
+
+.card-produtos p {
+    font-weight: bold;
+    color: #ffffff4d;
+    margin: 5px 0 12px;
+}
+
+.card-produtos a {
+    display: block;
+    background: #37393b6e;
+    color: #fff;
+    text-decoration: none;
+    padding: 8px;
+    border-radius: 4px;
+}
+
+.card-produtos a:hover {
+    transform: scale(1.05);
+    background-color: #494a4b;
+}

@@ -1,6 +1,7 @@
 "use client";
 
-import { useState, useEffect } from "react"; 
+import { useState, useEffect } from "react";
+import CardProduto from '@/componets/CardProdutos'
 
 export default function Produtos() {
     const [ listaProdutos, setListaProdutos ] = useState([]);
@@ -22,15 +23,9 @@ export default function Produtos() {
             <h1>Lista de produtos</h1>
             {msgErro != "" && <p>Erro: {msgErro}</p>}
             {listaProdutos.length > 0 ?
-            <div>
-                {listaProdutos.map((produtos, idx)=> {
-                    return (
-                        <div key={idx}>
-                            <img src={produtos.images} alt="" />
-                            <h2>{produtos.title}</h2>
-                            <a href={`/produtos/${produtos.id}`}>Saiba mais.</a>
-                        </div>
-                    )
+            <div className="card-container">
+                {listaProdutos.map((p)=> {
+                    return <CardProduto key={p.id} produtos={p} />
                 })}
             </div>
             :
