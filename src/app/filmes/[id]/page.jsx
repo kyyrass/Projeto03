@@ -6,7 +6,7 @@ import dados from '@/filmes.json'
 import { useParams } from "next/navigation";
 
 export default function Filme(){
-    const [filme,setFilme] = useState(null);
+    const [filme ,setFilme] = useState(null);
     const params = useParams();
 
     useEffect( ()=> {

@@ -27,15 +27,15 @@ h1 {
 }
 
 .card-produtos a {
-    display: block;
     background: #37393b6e;
     color: #fff;
     text-decoration: none;
-    padding: 8px;
     border-radius: 4px;
+    padding: 8px;
+    transition: 0.3s;
 }
 
 .card-produtos a:hover {
-    transform: scale(1.05);
+    transform: scale(1.04);
     background-color: #494a4b;
 }
