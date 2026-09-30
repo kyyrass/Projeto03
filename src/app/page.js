@@ -13,7 +13,6 @@ export default function Home() {
           </a>
           <a className={styles.secondary}
             href="./produtos"
-
           >
           produtos
           </a>
