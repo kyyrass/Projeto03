@@ -12,7 +12,7 @@ export default function Produto() {
         fetch(`https://dummyjson.com/products/${params.id}`)
             .then(res => res.json())
             .then(data => {
-                setProduto(data);
+                setProduto(data);  
             })
     }, []);
 
