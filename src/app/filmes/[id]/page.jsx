@@ -24,7 +24,6 @@ export default function Filme(){
                 <p>Criado por: {filme.diretores}</p>
                 <p>Ano de lançamento: {filme.ano}</p>
                 <span>Duração: {filme.duracaoMinutos} minutos</span>
-
             </div>}
         </main>
     )

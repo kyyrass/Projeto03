@@ -1,0 +1,36 @@
+main{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.produto-container {
+    width: 700px;
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    gap: 10px;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.418);
+    color: white ;
+}
+
+.produto-container img{
+    width: 200px;
+    place-self: center;
+}
+
+.produto-container h2{
+    font-size: 20px;
+}
+
+.e {
+    margin-bottom: 20px;
+}
+
+.p {
+    padding: 10px;
+    background-color: rgb(39, 100, 100);
+    text-align: center;
+}
